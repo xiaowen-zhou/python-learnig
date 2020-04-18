@@ -10,7 +10,6 @@ import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s [%(filename)s:%(lineno)d] %(levelname)s %(message)s')
 logging.disable(logging.INFO)
 
-keys = '06713a1927dbeaf7dd9338dfb232a8ed'
 urls = 'https://restapi.amap.com/v3/weather/weatherInfo'
 file_path = r'D:\python\learn\AMap_adcode_citycode_2020_4_10.xlsx'
 
