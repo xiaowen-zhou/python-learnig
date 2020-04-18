@@ -14,17 +14,6 @@ keys = '06713a1927dbeaf7dd9338dfb232a8ed'
 urls = 'https://restapi.amap.com/v3/weather/weatherInfo'
 file_path = r'D:\python\learn\AMap_adcode_citycode_2020_4_10.xlsx'
 
-'''
-def get_city_code(file,city_name):
-    wb = openpyxl.load_workbook(file)
-    sheet = wb.get_sheet_by_name('Sheet1')
-    city_code ={}
-    for cell in list(sheet.columns)[1]:
-        city_code.append(cell.value)
-    city_code.pop(0)
-    logging.debug(city_code[-1])
-    return city_code
-'''
 
 
 def get_city_code(file,city_input):
